@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    padding: 1.4%;
+}
+
+.bg{
+    background-color: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 500px;
+    height: 35px;
+    padding-left: 16px;
+}
+
+.data{
+    width: 500px;
+    border: none;
+    box-shadow: 2x;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 2%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.desc{
+    min-width: 38px;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.Haze{
+    background-image: url("https://1x.com/images/user/5bcc4719ab70e0e9e4a939876e600415-sd2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Clouds{
+    background-image: url("https://i.pinimg.com/originals/43/26/23/432623182ee73334450a0b517a62c457.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Fog, .Smoke, .Mist{
+    background-image: url("https://c1.wallpaperflare.com/preview/394/935/685/mountain-sunset-pastel-adventure.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Clear{
+    background-image: url("https://wallpapercrafter.com/desktop/139377-grass-forest-clear-sky-water-campfire-river-landscape-nature-hills-green-blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Rain{
+    background-image: url("https://cdn.24.co.za/files/Cms/General/d/8628/8fed73d5f397482197524220a54e7adb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Drizzle{
+    background-image: url("https://escapetrailer.com/wp-content/uploads/2020/07/Escape-Rainy-Day-scaled.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Thunderstorm{
+    background-image: url("https://img.fotocommunity.com/thunderstorm-3b370567-58d7-46ec-8263-8b91d9f5a760.jpg?height=1080");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.Snow{
+    background-image: url("https://www.findingtheuniverse.com/wp-content/uploads/2015/02/Sunrise252520from252520Iso252520Syote252520hotel252520finland25255B325255D.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+@media (max-width: 578px ) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        padding: 0;
+    }
+    input{
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .data{
+        width: 350px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
