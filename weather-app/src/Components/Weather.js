@@ -106,3 +106,4 @@ function Weather({weatherData}){
     );
 }
 export default Weather;
+
