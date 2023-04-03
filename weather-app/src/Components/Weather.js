@@ -47,7 +47,7 @@ function Weather({weatherData}){
                 {/******************************/}
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-6">
-                        <p>Feels like: {weatherData.main.feels_like} °C</p>
+                        <p>Feels like: {Math.round(weatherData.main.feels_like)} °C</p>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6">
                         <p>Description: {weatherData.weather[0].description[0].toUpperCase()+weatherData.weather[0].description.slice(1)}</p>
